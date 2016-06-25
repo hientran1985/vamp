@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir ~/.bintray/
-echo `pwd`
+echo Here is the current path: `pwd`
 FILE=$HOME/.bintray/.credentials
 cat <<EOF >$FILE
 realm = Bintray API Realm
